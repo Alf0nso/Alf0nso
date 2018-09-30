@@ -31,7 +31,7 @@ function draw() {
     for (let i = 0; i < cols; i++) {
         for (let j = 0; j < rows; j++) {
             let x = i * resolution;
-            let y = i * resolution;
+            let y = j * resolution;
             if (grid[i][j] == 1) {
                 fill(225);
                 rect(x, y, resolution, resolution);
