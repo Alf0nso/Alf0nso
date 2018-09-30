@@ -33,7 +33,7 @@ function draw() {
             let x = i * resolution;
             let y = i * resolution;
             if (grid[i][j] == 1) {
-                FileList(225);
+                fill(225);
                 rect(x, y, resolution, resolution);
             }
         }
