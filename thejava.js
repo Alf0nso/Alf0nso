@@ -9,11 +9,11 @@ function make2DArray(cols, rows) {
 let grid;
 let cols;
 let rows;
-let resolution = 40;
+let resolution = 20;
 
 function setup() {
 
-    createCanvas(700, 700);
+    createCanvas(600, 400);
     cols = width / resolution;
     rows = height / resolution;
 
